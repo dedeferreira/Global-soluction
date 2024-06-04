@@ -105,8 +105,8 @@ a:hover {
 .cont {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .50)),
-        url(../imagens/silas-baisch-K785Da4A_JA-unsplash.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .50)),
+        url(../imagens/silas-baisch-K785Da4A_JA-unsplash.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20% 20%;
@@ -131,15 +131,16 @@ a:hover {
 
 .cont-text h2 {
     font-size: 2vmax;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 70px;
+    margin-top: 110px;
     color: var(--color-light);
 }
 
 .cont-text p {
     width: 80%;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+
     color: var(--color-light);
 
 }
@@ -160,8 +161,9 @@ a:hover {
     width: 50%;
     justify-content: center;
     display: flex;
-    padding-top: 80px;
-    margin-bottom: 50px;
+    padding-top: 110px;
+    margin-bottom: 10px;
+
 }
 
 .cont-image img {
@@ -170,12 +172,26 @@ a:hover {
 }
 
 .img-back-ocean {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .50)),
-        url(../imagens/silas-baisch-K785Da4A_JA-unsplash.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .50)),
+        url(../imagens/silas-baisch-K785Da4A_JA-unsplash.jpg); */
 }
 
 .funcionalidades {
     color: #ffffff;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.funcionalidades p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .50)),
+        url(../imagens/silas-baisch-K785Da4A_JA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
