@@ -167,7 +167,7 @@ a:hover {
 }
 
 .cont-image img {
-    width: 75%;
+    width: 70%;
     border-radius: 0px 80px;
 }
 
@@ -177,6 +177,10 @@ a:hover {
     margin-left: 70px;
     margin-right: 70px;
 
+}
+
+.funcionalidades h2 {
+    margin-top: 20px;
 }
 
 .funcionalidades p {
